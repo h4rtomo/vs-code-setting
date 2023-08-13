@@ -1,5 +1,4 @@
 {
-  "editor.fontSize": 13,
   "security.workspace.trust.untrustedFiles": "open",
   "diffEditor.wordWrap": "on",
   "editor.wordWrap": "on",
@@ -17,11 +16,22 @@
   "workbench.tree.indent": 20,
   "workbench.colorCustomizations": {
     "tree.indentGuidesStroke": "#008070",
-    "editorIndentGuide.activeBackground": "#ffbe30",
-    "editorIndentGuide.background": "#008070",
-    
+
+    "editorIndentGuide.activeBackground1": "#ffbe30",
+    "editorIndentGuide.background1": "#008070",
+
+    "editor.lineHighlightBackground": "#6a5d3f",
+
     "editorCursor.foreground": "#ffbe30",
-    "terminalCursor.foreground": "#ffbe30"
+    "terminalCursor.foreground": "#ffbe30",
+    
+    "titleBar.activeBackground": "#ffbe30",
+    "titleBar.activeForeground": "#000000",
+
+    "sideBar.border": "#ffbe30",
+    "activityBar.foreground": "#ffbe30",
+    "activityBar.inactiveForeground": "#eeeeee"
+
   },
   "editor.cursorWidth": 8,
   "workbench.view.alwaysShowHeaderActions": true,
@@ -31,7 +41,11 @@
   "workbench.colorTheme": "Panda Syntax",
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.folders.color": "#ffbe30",
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "terminal.integrated.fontFamily": "MesloLGS NF",
-  "diffEditor.ignoreTrimWhitespace": false
+  "diffEditor.ignoreTrimWhitespace": false,
+  "tabnine.experimentalAutoImports": true,
+  "php.validate.executablePath": "/usr/local/Cellar/php/8.2.9/bin/php",
+  "explorer.confirmDelete": false,
+  "dart.flutterSdkPath": "/Users/rudi/code/flutter",
 }
